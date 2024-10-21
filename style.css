@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c6c9ef;
+}
+.container{
+    display: grid;
+    background-color: white;
+    border-radius: 10px;
+    width: 1200px;
+    height: 1000px;
+    padding: 30px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 80px 80px 80px 380px 80px 80px;
+    gap: 1rem;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #0e1731;
+    background-color: white;
+}
+
+.knopka_2{
+    background-color: #0e1731;
+    width: 80px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #0e1731;
+    font-size: 25px;
+}
+.search{
+    display: grid;
+    grid-template-columns: 50px 50px 80px 80px 80px;
+    gap: 1rem;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.izdeu{
+    display: grid;
+    margin-left: 1100px;
+    margin-top: -30px;
+}
+.roumd{
+    border-radius: 70%;
+    margin-top: -50px;
+}
+.left{
+    display: grid;
+    gap: 1rem;
+}
+
+h1{
+    display: grid;
+    margin-top: -10px;
+}
+.right_img{
+    display: grid;
+    margin-top: 100px;
+}
+.name{
+    display: grid;
+    margin-left: 90px;
+    margin-top: -50px;
+}
+
+h3{
+    display: grid;
+    margin-left: 500px;
+    float: right;
+    margin-top: -650px;
+}
+.recent-articles {
+    grid-column: 2 / 3;
+    margin-left: 700px;
+    margin-top: -700px;
+}
+
+
+.per-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.article {
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.article-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.article-author {
+    display: grid;
+    align-items: center;
+    gap: 10px;
+}
+
+.article-author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
